@@ -9,8 +9,8 @@
 			Multiplier = multiplier;
 		}
 
-		public string RingColor { get; set; }
-		public int Digit { get; set; }
-		public int Multiplier { get; set; }
+		public string RingColor { get; }
+		public int Digit { get;  }
+		public int Multiplier { get; }
 	}
 }
